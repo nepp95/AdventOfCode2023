@@ -38,14 +38,16 @@ void Part2();
 
 int main(int argc, char* argv[])
 {
-	//Part1();
-	Part2();
+	Part1();
+	Part2(); // Not correct result.
 }
+
+////////////////////////////////////////////////////
 
 void Part1()
 {
 	// Read file
-	std::ifstream file("part1.txt");
+	std::ifstream file("sample.txt");
 	if (!file)
 		return;
 
@@ -78,7 +80,7 @@ void Part1()
 void Part2()
 {
 	// Read file
-	std::ifstream file("part2.txt");
+	std::ifstream file("sample.txt");
 	if (!file)
 		return;
 

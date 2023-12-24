@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{44BC040D-B0D0-2CBE-7952-D01DE52529EF}</ProjectGuid>
+    <ProjectGuid>{45BC040D-B1D0-2CBE-7A52-D01DE62529EF}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Day01</RootNamespace>
+    <RootNamespace>Day02</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -41,16 +41,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\Bin\Debug-windows-x86_64\Day01\</OutDir>
-    <IntDir>..\Bin-Int\Debug-windows-x86_64\Day01\</IntDir>
-    <TargetName>Day01</TargetName>
+    <OutDir>..\Bin\Debug-windows-x86_64\Day02\</OutDir>
+    <IntDir>..\Bin-Int\Debug-windows-x86_64\Day02\</IntDir>
+    <TargetName>Day02</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\Bin\Release-windows-x86_64\Day01\</OutDir>
-    <IntDir>..\Bin-Int\Release-windows-x86_64\Day01\</IntDir>
-    <TargetName>Day01</TargetName>
+    <OutDir>..\Bin\Release-windows-x86_64\Day02\</OutDir>
+    <IntDir>..\Bin-Int\Release-windows-x86_64\Day02\</IntDir>
+    <TargetName>Day02</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -94,6 +94,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="sample.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

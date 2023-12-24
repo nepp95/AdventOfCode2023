@@ -15,4 +15,5 @@ workspace "AdventOfCode2023"
 
     group "Week 1"
         include "Day01"
+        include "Day02"
     group ""
